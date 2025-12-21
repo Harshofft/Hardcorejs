@@ -33,15 +33,23 @@ let user = [{
 ]
 
 function userLoggedIn() {
+    let userLoggedI=[];
+    let userNotlogged=[];
     for(i=0; i< user.length; i++){
         let hero = user[i]
         if(hero.isLoggedin==true){
-            let present = user[i]
+            userLoggedI.push(hero)
         }
         else if ( hero.isLoggedin==false){
-            let absent = hero
+            userNotlogged.push(hero)
             
         }
     }
+    console.log("this employee is present today");
+    
+    console.log(userLoggedI);
+    console.log("this employee is not present today");
+    console.log(userNotlogged);
+    
 }
 userLoggedIn()

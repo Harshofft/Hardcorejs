@@ -1,5 +1,5 @@
 let name = "harry";
-let age = 22;
+const age = 22;
 let isStudent = true;
 
 console.log(name);

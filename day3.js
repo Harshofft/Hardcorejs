@@ -15,7 +15,7 @@
 
 // let i =20 ;
 // let result = i/2;
-// console.log(result);
+//this will be quesont
 // let rem = i%2
 // console.log(rem);
  
@@ -38,15 +38,26 @@
 //         }
 //     }
 // }
-
+    let arryby3 = []
+    let arryby2 = []
 for (let i = 1; i<=30; i++){
    
     
+
     if (i%3==0) {
-        console.log(i);
+      arryby3.push(i)
         
     } 
+    
+   
+    if (i%2==0) {
+        arryby2.push(i)
+    }
     
     
 
 }
+console.log("this is divisible by 2");
+console.log(arryby2);
+console.log("this is divisible by 3");
+console.log(arryby3);
